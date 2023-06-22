@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is JavaScript?",
+    "answer": "A programming language used primarily to create interactive websites",
+    "wrongAnswers": [
+      "A type of coffee",
+      "A form of art",
+      "A vitamin supplement"
+    ]
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "answer": "Netscape Communications Corporation",
+    "wrongAnswers": [
+      "Microsoft",
+      "Google",
+      "Apple"
+    ]
+  },
+  {
+    "question": "What is a variable in JavaScript?",
+    "answer": "A container that holds a value",
+    "wrongAnswers": [
+      "A type of function",
+      "A form of loop",
+      "A type of number"
+    ]
+  },
+  {
+    "question": "What is an array in JavaScript?",
+    "answer": "A collection of variables that can hold multiple values",
+    "wrongAnswers": [
+      "A type of variable",
+      "A form of string",
+      "A type of function"
+    ]
+  },
+  {
+    "question": "What is an object in JavaScript?",
+    "answer": "A collection of properties and values",
+    "wrongAnswers": [
+      "A type of function",
+      "A form of array",
+      "A type of variable"
+    ]
+  },
+  {
+    "question": "What is a function in JavaScript?",
+    "answer": "A block of code that can be reused",
+    "wrongAnswers": [
+      "A type of variable",
+      "A form of array",
+      "A collection of properties and values"
+    ]
+  },
+  {
+    "question": "What is the DOM in JavaScript?",
+    "answer": "The Document Object Model, a programming interface for HTML and XML documents",
+    "wrongAnswers": [
+      "A type of variable",
+      "A form of function",
+      "A collection of properties and values"
+    ]
+  },
+  {
+    "question": "What is a callback function in JavaScript?",
+    "answer": "A function passed as an argument to another function",
+    "wrongAnswers": [
+      "A type of loop",
+      "A form of object",
+      "A collection of variables"
+    ]
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "answer": "A function that has access to variables in its outer scope",
+    "wrongAnswers": [
+      "A type of object",
+      "A form of array",
+      "A collection of properties and values"
+    ]
+  },
+  {
+    "question": "What is truthy in JavaScript?",
+    "answer": "A value that is considered true when converted to a Boolean",
+    "wrongAnswers": [
+      "A type of function",
+      "A form of loop",
+      "A collection of variables"
+    ]
+  }
+]
