@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { styled } from 'styled-components';
+import SubmitButton from '@/components/ButtonSubmit';
 
 const FormWrapper = styled.form`
     display: flex;
@@ -9,24 +10,7 @@ const FormWrapper = styled.form`
     justify-content: center;
 `;
 
-const SubmitButton = styled.button`
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-`;
-
-interface shuffledQuestion {
-    answers: string[];
-    question: string;
-    answer: string;
-    wrongAnswers: string[];
-}
-
-interface ImgGenProp {
-    shuffledQuestions: shuffledQuestion[];
-}
-
-const ImgGen = ({ shuffledQuestions }: ImgGenProp) => {
+const ImgGen = () => {
     const [description, setDescription] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [imageUrl, setImageUrl] = useState('');

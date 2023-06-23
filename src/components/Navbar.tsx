@@ -34,14 +34,15 @@ const Navbar = ({ path }: NavbarProps) => {
                 <select id="options" value={path} onChange={handleOptionChange}>
                     <option value="/">Home</option>
                     <option value="/js-quiz">Javascript Quiz</option>
-                    <option value="/meme-gen">Meme Generator</option>
+                    {/* <option value="/meme-gen">Meme Generator</option> */}
                     <option value="/img-gen">Image Generator</option>
+                    <option value="/marketing-copy-gen">
+                        Marketing Copy Generator
+                    </option>
                 </select>
             </div>
 
-            <Link
-                href={'https://platform.openai.com/docs/introduction'}
-                className="text-blue-600 underline ">
+            <Link href={'https://platform.openai.com/docs/introduction'}>
                 Open AI API Docs
             </Link>
         </NavWrapper>
